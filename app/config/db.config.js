@@ -1,4 +1,4 @@
-const database_url = "mongodb://localhost:27017/"+process.env.DATABASE_NAME;
+const database_url = process.env.MONGODB_URL+process.env.DATABASE_NAME;
 
 module.exports = {
     url: database_url
