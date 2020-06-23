@@ -24,5 +24,4 @@ module.exports = app => {
     const base_url = '/api/weathers/'+process.env.API_KEY;
   
     app.use(base_url, router);
-    app.use('prout/prout/', router);
   };
