@@ -1,0 +1,4 @@
+# Remove node modules en environment key
+
+node_modules
+environment/.env
